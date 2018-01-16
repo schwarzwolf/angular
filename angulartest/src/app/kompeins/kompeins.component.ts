@@ -8,5 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class KompeinsComponent{
 
 	title = 'dies ist ein erster test';
+	objekt = {
+		name: 'chuchu',
+		gender: 'apache kampfhubschrauber'
+	};
 
 }
