@@ -25,5 +25,4 @@ export class KompeinsComponent{
 		document.write("geklappt!")
 	};
 	
-	farbe = "farbee";
 }
