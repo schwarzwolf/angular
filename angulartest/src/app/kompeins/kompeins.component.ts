@@ -13,4 +13,17 @@ export class KompeinsComponent{
 		gender: 'apache kampfhubschrauber'
 	};
 
+	meinArray = ["hund", "katze", "wolf"];
+	
+	wenn = "hallo";
+	
+	klasse = "gg";
+	
+	bild = 'http://www.zooroyal.de/magazin/wp-content/uploads/2017/06/hund-im-sommer-760x560.jpg';
+	
+	meineFunktion() {
+		document.write("geklappt!")
+	};
+	
+	farbe = "farbee";
 }

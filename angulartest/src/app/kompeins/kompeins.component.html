@@ -1,5 +1,16 @@
-{{ title }}
+<img src="{{ bild }}">
+<h1 class="{{ klasse }}">{{ objekt.gender }}</h1>
 <br><br>
-{{ objekt.gender }}
+<h2>{{ objekt.name }}</h2>
 <br><br>
-{{ objekt.name }}
+<ul>
+	<li *ngFor = "let tier of meinArray"> {{ meinArray }}</li>
+</ul>
+<p *ngIf = "wenn == 'hallo' then tmpl1 else tmpll2"></p>
+
+<ng-template #tmpl1>I'm here</ng-template>
+<ng-template #tmpl2>I'm not here</ng-template>
+
+<button (click)="meineFunktion()">Klick mich</button>
+
+<p class="{{ farbe }}">whatever</p>
